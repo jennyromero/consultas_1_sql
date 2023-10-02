@@ -22,27 +22,34 @@
   ![Consulta 1](consultas_1.png)
 
 - `SELECT identificacion, nombre, apellidos, direccion, telefono,ciudad_nac, fecha_nac FROM Cliente`
-![Consulta 1](consultas1_2.png)
+  ![Consulta 1](consultas1_2.png)
 
 ### Consultas No. 2
 
 2. Para visualizar solamente la identificacion del cliente : `SELECT identificacion FROM Cliente`
-![Consulta 2](consultas2.png)
+   ![Consulta 2](consultas2.png)
 
 ### Consultas No. 3
 
 3. Si se desea obtener los registros cuya identificacion sea mayor o igual a 150 se debe utilizar la clausula `WHERE` que especifica las condiciones que deben reunir los registros que se van a seleccionar: `SELECT * FROM Cliente WHERE identificacion>=150`
-![Consulta 3](consultas3.png)
+   ![Consulta 3](consultas3.png)
 
-### Consulta No. 4 
+### Consulta No. 4
 
 4. Se desea obtener los registros cuyos apellidos seana Vanegas o Cetina, se debe utilizar el operador `IN` que especifica los registros que se quieren visualizar de una tabla.
 
 `SELECT apellidos, nombre  FROM Clientes WHERE apellidos IN ('Vanegas','Cetina')`
 
 ![Consulta 4](consultas4.png)
- o se puede utilizar el operador `OR`
+o se puede utilizar el operador `OR`
 
 `SELECT apellidos,nombre  FROM Clientes WHERE apellidos = 'Vanegas' OR apellidos = 'Cetina'`
 ![Consulta 4](consulta4_2.png)
 
+### Consulta No. 5
+
+5. Se desea obtener los registros cuya identificacion sea menor de 110 y la ciudad sea cali, se debe utlizar el operador `AND`
+
+`SELECT * FROM Cliente WHERE identificacion<=110 AND ciudad_nac = 'Cali'`
+
+![Consulta 5](consultas5.png)
