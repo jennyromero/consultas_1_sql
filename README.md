@@ -68,3 +68,9 @@ o se puede utilizar el operador `OR`
 `SELECT * FROM Cliente WHERE nombre LIKE '%a%'`
 ![Consulta 7](consultas7.png)
 
+### Consultas No. 8
+
+8. Se desea obener los registros donde la cuarta letra del nombre del cliente sea la letra 'a'
+
+`SELECT * FROM Cliente WHERE nombre LIKE '___a'`
+![Consulta 8](consultas8.png)
