@@ -93,3 +93,20 @@ o se puede utilizar el operador `OR`
 `DELETE FROM Cliente WHERE identificacion > 150`
 
 ![Eliminacion 1](eliminacion1.png)
+
+2. Eliminar los registros cuya identificacion sea igual a 116
+
+`DELETE FROM Cliente WHERE identificacion = 116`
+
+## Instrucción UPDATE
+
+- Permite actualizar un campo de una tabla.
+- Su formato es: `UPDATE nombre_tabla SET nombre campo = valor`
+
+### Actualizacion No. 1
+
+1. Para actualizar la ciudad de nacimiento de Cristian Vanegas, cuya identificacion es 114
+
+`UPDATE Cliente SET ciudad_nac = 'Pereira' WHERE identificacion=114`
+
+![Actualizacion ](actualizacion1.png)
