@@ -53,7 +53,7 @@ o se puede utilizar el operador `OR`
 
 ![Consulta 5](consultas5.png)
 
-###  Consulta No. 6
+### Consulta No. 6
 
 6. Si se desea obtener los registros cuyos nombres empiecen por la letras 'A', se debe utilizar el operador `LIKE`que utiliza los patrones `%` (todos) y `_` (caracter).
 
@@ -110,3 +110,21 @@ o se puede utilizar el operador `OR`
 `UPDATE Cliente SET ciudad_nac = 'Pereira' WHERE identificacion=114`
 
 ![Actualizacion ](actualizacion1.png)
+
+## Creacion tabla Pedido
+
+### Diccionario de datos
+
+| Campo              | Tipo de dato | Longitud |
+| ------------------ | -----------  | -------- |
+|***no_pedido**      | varchar | 15 |
+| iden_cliente       | varchar | 15 |
+| fecha_compra       | date    | |
+| fecha_vencimiento  | date    |  |
+|observacion| varchar|30|
+
+
+### Modelo Entidad - Relacion 
+
+![Modelo ](modelo.png)
+
