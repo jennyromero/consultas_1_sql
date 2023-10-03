@@ -117,7 +117,7 @@ o se puede utilizar el operador `OR`
 
 | Campo              | Tipo de dato | Longitud |
 | ------------------ | -----------  | -------- |
-|***no_pedido**      | varchar | 15 |
+|**no_pedido**      | varchar | 15 |
 | iden_cliente       | varchar | 15 |
 | fecha_compra       | date    | |
 | fecha_vencimiento  | date    |  |
@@ -128,3 +128,5 @@ o se puede utilizar el operador `OR`
 
 ![Modelo ](modelo.png)
 
+### Tabla Pedido
+![tabla ](pedido.png)
