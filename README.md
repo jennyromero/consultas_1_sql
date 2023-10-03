@@ -11,8 +11,7 @@
 ## Instrucciones SELECT
 
 - Permite seleccionar datos de una tabla.
-- Su formato es: `SELECT campos_tablas FROM
-  nombre_tabla``
+- Su formato es: `SELECT campos_tablas FROM nombre_tabla`
 
 ### Consultas No. 1
 
@@ -81,3 +80,16 @@ o se puede utilizar el operador `OR`
 
 `SELECT * FROM Cliente WHERE identificacion BETWEEN 110 AND 150`
 ![Consulta 9](consultas9.png)
+
+## Instrucción DELETE
+
+- Permite borrar todos o un grupo especifico de registros de una tabla.
+- Su formato es: ` DELETE FROM nombre_tabla`
+
+### Eliminación No. 1
+
+1. eliminar los registros cuya identificacion sea mayor a 150
+
+`DELETE FROM Cliente WHERE identificacion > 150`
+
+![Eliminacion 1](eliminacion1.png)
