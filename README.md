@@ -60,3 +60,11 @@ o se puede utilizar el operador `OR`
 
 `SELECT * FROM Cliente WHERE nombre LIKE 'A%'`
 ![Consulta 6](consultas6.png)
+
+### Consultas No. 7
+
+7. Se desea obtener los registros cuyos nombre contengan la letra 'a'
+
+`SELECT * FROM Cliente WHERE nombre LIKE '%a%'`
+![Consulta 7](consultas7.png)
+
